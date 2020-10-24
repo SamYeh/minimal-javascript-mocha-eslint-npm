@@ -1,0 +1,14 @@
+{
+  "name": "minimal-javascript-mocha-eslint-npm",
+  "version": "0.0.0",
+
+  "devDependencies": {
+    "eslint": "7.12.0",
+    "eslint-config-standard": "15.0.0",
+    "mocha": "8.2.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "type": "module"
+}
